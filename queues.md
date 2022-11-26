@@ -35,19 +35,19 @@
 
     First we create an empty queue by declaring a variable name for the queue and equal it using brackets.
 
-    ![Empty Queue](pictures/Empty_Queue.png)
+![Empty Queue](pictures/Empty_Queue.png)
 
     Then we enqueue (add) a few customer names to the queue using the *append()* method.
 
-    ![Enqueue Customer](pictures/Add_Customer.png)
+![Enqueue Customer](pictures/Add_Customer.png)
 
     We can display the results of our queue to confirm our customers names have been added to the queue.
 
-    ![Print Queue](pictures/print_queue.png)
+![Print Queue](pictures/print_queue.png)
 
     Then we dequeue (remove) the first customer using the keyword *del*.
 
-    ![Dequeue Customer](pictures/remove_customer.png)
+![Dequeue Customer](pictures/remove_customer.png)
     
 
 ## Problem to Solve
