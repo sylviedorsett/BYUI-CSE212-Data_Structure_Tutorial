@@ -52,18 +52,9 @@ In Python we have several methods in place to help us process queues:
 
 ## Problem to Solve
 <hr/>
-    Customer orders to fulfill:
-
     In this problem you need to write code to check if a queue is empty or not.
 
-    Create a queue named *"customers"*.
-    Write the code to check if the queue is empty.
-    Enqueue three customer names.
-    Check if the queue is empty again.
-
-    (In this problem you need to write code to check if a queue is empty or not.
-
-Create a queue named *"customers"*.
+Create a queue named "customers".
 Write the code to check if the queue is empty.
 Enqueue three customer names.
 Check if the queue is empty again.
