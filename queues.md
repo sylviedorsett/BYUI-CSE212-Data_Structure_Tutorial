@@ -10,7 +10,7 @@
 <hr/>
 In Python we have several methods in place to help us process queues: 
     
-    To enqueue (add) an item we use the *append()* method.
+    To enqueue (add) an item we use the append() method.
    **queueName.append(itemName)**
 
     There are two ways to dequeue (remove) an item.
