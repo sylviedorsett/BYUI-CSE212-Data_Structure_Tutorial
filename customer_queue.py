@@ -1,7 +1,7 @@
 """Function to check if a queue is empty or not"""
 def is_empty(my_queue):
     
-    if len(customer_queue) == 0:
+    if len(my_queue) == 0:
         is_empty = True
     else:
         is_empty = False
