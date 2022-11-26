@@ -9,15 +9,15 @@ def is_empty(my_queue):
     return is_empty
 
 """Create an empty queue."""
-customer_queue = []
+customers = []
 
 """Call the is_empty function to check if the queue is empty."""
-print(is_empty(customer_queue)) #Result should be True
+print(is_empty(customers)) #Result should be True
 
 """Add a customer to the queue."""
-customer_queue.append("Joe Black")
-customer_queue.append("Sally Smith")
-customer_queue.append("Bob Baker")
+customers.append("Joe Black")
+customers.append("Sally Smith")
+customers.append("Bob Baker")
 
 """Call the is_empty function to check if the queue is empty."""
-print(is_empty(customer_queue)) #Result should be False
+print(is_empty(customers)) #Result should be False
