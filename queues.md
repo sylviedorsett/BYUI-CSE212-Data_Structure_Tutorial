@@ -37,7 +37,7 @@ In Python we have several methods in place to help us process queues:
 
 ![Empty Queue](pictures/Empty_Queue.png)
 
-    Then we enqueue (add) a few customer names to the queue using the *append()* method.
+    Then we enqueue (add) a few customer names to the queue using the append() method.
 
 ![Enqueue Customer](pictures/Add_Customer.png)
 
@@ -45,7 +45,7 @@ In Python we have several methods in place to help us process queues:
 
 ![Print Queue](pictures/print_queue.png)
 
-    Then we dequeue (remove) the first customer using the keyword *del*.
+    Then we dequeue (remove) the first customer using the pop() method.
 
 ![Dequeue Customer](pictures/remove_customer.png)
     
