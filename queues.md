@@ -33,7 +33,7 @@ In Python we have several methods in place to help us process queues:
 <hr/>
     In the example below we will add and remove customer names to a queue.
 
-    First we create an empty queue by declaring a variable name for the queue and equal it using brackets.
+    First we create an empty queue by declaring a variable name for the queue and use the assignment operator to empty brackets.
 
 ![Empty Queue](pictures/Empty_Queue.png)
 
