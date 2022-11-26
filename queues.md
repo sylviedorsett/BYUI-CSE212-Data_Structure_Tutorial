@@ -54,10 +54,10 @@ In Python we have several methods in place to help us process queues:
 <hr/>
     In this problem you need to write code to check if a queue is empty or not.
 
-Create a queue named "customers".
-Write the code to check if the queue is empty.
-Enqueue three customer names.
-Check if the queue is empty again.
+1. Create a queue named "customers".
+2. Write the code to check if the queue is empty.
+3. Enqueue three customer names.
+4. Check if the queue is empty again.
 
 ![Answer](customer_queue.py)
     
