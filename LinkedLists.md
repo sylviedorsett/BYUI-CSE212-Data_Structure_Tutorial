@@ -23,63 +23,95 @@ Python provides a linked list called the 'deque' that you can import into your p
 To insert a new head to the list that already has a head we need to do the following:
 1. Create a new node.
 ```python
-   new_node = LinkedList.Node
+new_node = LinkedList.Node
 ```
 2. Make the current head of the linked list the 'next' node for the new node.
-   **new_node.next = self.head**
-3. Make the new node the previous node of the old head.
-   **self.head.previous = new_node**
+```python
+new_node.next = self.head
+```
+4. Make the new node the previous node of the old head.
+```python
+self.head.previous = new_node
+```
 4. Make the new node the new head.
-   **self.head = new_node**
-    
+```python
+self.head = new_node
+```
 To insert a new head to a list that is empty we need to do the following:
 1. Create a new node.
-   **new_node = LinkedList.Node**
+```python
+new_node = LinkedList.Node
+```
 2. Make the new node both the head and the tail of the linked list.
-   **self.head = new_node**
-   **self.tail = new_node**
-
+```python
+self.head = new_node
+self.tail = new_node
+```
 To insert a new tail to a linked list that is not empty we need to do the following:
 1. Create a new node.
-   **new_node = LinkedList.Node**
+```python
+new_node = LinkedList.Node
+```
 2. Make the current tail the previous node to the new node.
-   **new_node.previous = self.tail**
+```python
+new_node.previous = self.tail
+```
 3. Make the next of the current tail the new node.
-   **self.tail.next = new_node**
+```python
+self.tail.next = new_node
+```
 4. Make the new node the new tail.
-   **self.tail = new_node**
-
+```python
+self.tail = new_node
+```
 To insert a new node into the middle of a linked list we need the current node you want to insert the new node after. Then do the following:
 1. Create a new node.
-   **new_node = LinkedList.Node**
+```python
+new_node = LinkedList.Node
+```
 2. Make the current node the 'previous' node to the new node
-   **new_node.previous = current_node**
+```python
+new_node.previous = current_node
+```
 3. Make the next node in the linked list connect as 'next' for the new node.
-   **new_node.next = current_node.next**
+```python
+new_node.next = current_node.next
+```
 4. Make the new node the previous of the next node. 
-   **current_node.next.previous = new_node**
+```python
+current_node.next.previous = new_node*
+```
 5. Make the new node the next node for the current node.
-   **current_node.next = new_node**
-
+```python
+current_node.next = new_node
+```
 To remove a head node from a linked list we must do the following:
 1. Set the previous of the next node to the head to a None value.
-   **self.head.next.previous = None**
+```python
+self.head.next.previous = None
+```
 2. Set the next node in the linked list as the new head.
-   **self.head = self.head.next**
-
+```python
+self.head = self.head.next
+```
 To remove a tail node from a linked list we must do the following:
 1. Set the next of the previous node to the tail to a None value.
-   **self.tail.previous.next = None**
+```python
+self.tail.previous.next = None
+```
 2. Set the previous node in the linked list as the new tail.
-   **self.tail = self.tail.previous**
-
+```python
+self.tail = self.tail.previous
+```
 To remove a node from the middle of a linke list we must do the following:
 1. Make the previous of the node you are removing the previous node to the next node in the linked list.
-   **current_node.next.previous = current_node.previous**
-
+```python
+current_node.next.previous = current_node.previous
+```
 2. Make the next of the node you are removing the next node to the previous node in the linke list.
-   **current_node.previous.next = current_node.next**
-
+```python
+current_node.previous.next = current_node.next
+```
 ## Big O Notation
 <hr/>    
 When using deque to work with linked lists the actions of inserting or removing a head or tail node, checking if the linked list is empty and getting the size of nodes in a linked list all have a Big O Notation of O(1). These operations have the same runtime regardless of the size of data in the linked list. When we insert or remove a node from the middle has a Big O Notation of O(n). Both of these operations require a loop to find the node. So as a linear performance, as the data increases, so does the performance.
