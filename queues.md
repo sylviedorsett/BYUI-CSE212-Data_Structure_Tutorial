@@ -19,19 +19,26 @@ Welcome to my Data Structures Tutorial. This tutorial covers three data structur
 In Python we have several methods in place to help us process queues: 
     
     To enqueue (add) an item we use the append() method.
-   **queueName.append(itemName)**
-
+```python
+queueName.append(itemName)
+```
     There are two ways to dequeue (remove) an item.
-   **itemName = queueName[0]**
-   **del queueName[0]**
-   or
-   **itemName = queueName.pop(0)**
-    
+```python
+itemName = queueName[0]
+del queueName[0]
+```
+or
+```python
+itemName = queueName.pop(0)
+```    
     To check the size of a queue we use the *size()* method. It will return an integer value of how many items are in the queue.
-   **size = len(queueName)**
-
+```python
+size = len(queueName)
+```
     To check to see if a queue is empty we can use the *empty()* method. It will return a boolean value (True or False). If the queue is empty the value returned will be True.
-   **if len(queueName) == 0:**
+```python
+if len(queueName) == 0:
+```
 
 ## Big O Notation
 <hr/>    
