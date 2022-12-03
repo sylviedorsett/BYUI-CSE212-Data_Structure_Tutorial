@@ -1,6 +1,5 @@
 # Python Data Structure Tutorial
 <hr/>
-Welcome to my Data Structures Tutorial. This tutorial covers three data structures in Python. Each topic includes some instruction, examples and a practice problem.
 
 1. [Queues](queues.md)
 2. [Home](welcome.md)
