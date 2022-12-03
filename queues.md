@@ -3,7 +3,7 @@
 Welcome to my Data Structures Tutorial. This tutorial covers three data structures in Python. Each topic includes some instruction, examples and a practice problem.
 
 1. [Home](welcome.md)
-2. [Linked Lists](linkedLists.md) 
+2. [Linked Lists](LinkedLists.md) 
 3. [Trees](trees.md)
 
 ## Queues:
