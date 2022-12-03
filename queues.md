@@ -6,7 +6,7 @@ Welcome to my Data Structures Tutorial. This tutorial covers three data structur
 2. [Linked Lists](LinkedLists.md) 
 3. [Trees](trees.md)
 
-## Queues:
+# Queues:
 <hr/>
     A queue in computer programming is a data structure, much like a line, in which items are processed in a FIFO (First In First Out) order. The first item in the queue is called the front. The last item in the queue is called the back. As items are added to the queue we 'enqueue', or add, the item to the back of the queue. If there are no items in the queue then the added item becomes the first item in the queue. As items are processed they are 'dequeued', or removed, from the queue. The first item in the queue is alway the first item to be processed or dequeued. Consider a line of customers. The first person in line will be served first. The last person to enter the line will be the last person to be served.
     
