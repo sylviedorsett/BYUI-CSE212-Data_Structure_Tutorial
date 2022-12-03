@@ -16,7 +16,7 @@ Welcome to my Data Structures Tutorial. This tutorial covers three data structur
 
 ## Queues in Python
 <hr/>
-In Python we have several methods in place to help us process queues:  
+###In Python we have several methods in place to help us process queues:  
 
 To enqueue (add) an item we use the append() method.
 ```python
