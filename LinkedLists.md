@@ -6,7 +6,7 @@ Welcome to my Data Structures Tutorial. This tutorial covers three data structur
 2. [Queues](queues.md)
 3. [Trees](trees.md)
 
-## Linked Lists:
+# Linked Lists:
 <hr/>
     A Linked List in computer programming is a data structure similar to a dynamic array. Unlike a dynamic array whose items are stored in memory next to each other; the items of a Linked List can be stored randomly in a computer's memory. To keep the linked list together we must 'link' one item to the next item in the list. Each item is called a node. The first item in the linked list is called the head. The last item in the linked list is called the tail. Each link from one item to the next is called a pointer. Linked lists can have one pointer but most linked lists contain bi-directional linking. This means there are pointers connecting each node from Head to Tail and additional pointers connecting each node from Tail to Head.
 
