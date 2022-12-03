@@ -22,7 +22,9 @@ Python provides a linked list called the 'deque' that you can import into your p
     
 To insert a new head to the list that already has a head we need to do the following:
 1. Create a new node.
-   **new_node = LinkedList.Node**
+```python
+   new_node = LinkedList.Node
+```
 2. Make the current head of the linked list the 'next' node for the new node.
    **new_node.next = self.head**
 3. Make the new node the previous node of the old head.
