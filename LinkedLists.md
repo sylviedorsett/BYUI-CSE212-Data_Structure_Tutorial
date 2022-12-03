@@ -12,7 +12,7 @@ Welcome to my Data Structures Tutorial. This tutorial covers three data structur
     
 ## Real World Example:
 <hr/>
-    Consider a computer program that manages the order of an emergency room filled with patients. The staff has an ongoing list of patients to help, usually in order of first come first serve. However, when a patient of higher priorty arrives, they need to be inserted into the list. The computer program processing the patients can implement a linked list that unlinks patients in the linked list to insert new patients based on their priority.
+    Consider a computer program that manages the order of patients in an emergency room waiting to be attending to. The staff has an ongoing list of patients to help, usually in order of first come first serve. However, when a patient of higher priorty arrives, they need to be inserted into the list. The computer program processing the order patients can implement a linked list that unlinks patients in the linked list to insert new patients based on their priority.
 
 ## Linked Lists in Python
 <hr/>
