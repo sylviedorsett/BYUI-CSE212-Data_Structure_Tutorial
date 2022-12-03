@@ -1,4 +1,5 @@
-# Data Structure Tutorial
+# Python Data Structure Tutorial
+## Created by Sylvie Dorsett
 <hr/>
 Welcome to my Data Structures Tutorial. This tutorial covers three data structures in Python. Each topic includes some instruction, examples and a practice problem.
 
