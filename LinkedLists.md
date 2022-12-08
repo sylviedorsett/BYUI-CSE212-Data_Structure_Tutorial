@@ -1,8 +1,8 @@
 # Python Data Structure Tutorial
 <hr/>
 
-1. [Queues](queues.md)
-2. [Home](welcome.md)
+1. [Home](welcome.md)
+2. [Queues](queues.md)
 4. [Trees](trees.md)
 
 # Linked Lists:
